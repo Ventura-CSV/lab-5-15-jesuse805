@@ -7,7 +7,7 @@ def consonant(strval):
         
 
 def main():
-    strval = 'PythonProgramming'
+    strval = 'Python Programming'
     mygen = consonant(strval)
 
     rlst = list(mygen)
