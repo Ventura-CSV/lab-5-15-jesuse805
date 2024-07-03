@@ -1,9 +1,8 @@
 
 def consonant(strval):
-   ##################################################
-   # make your code
-   ##################################################
 
+    vowels = 'aeiouAEIOU'
+    
 
 def main():
     strval = 'Python Programming'
