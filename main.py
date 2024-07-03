@@ -5,8 +5,7 @@ def consonant(strval):
     
     for i in list:
         if i.isalpha() and not i.lower() in vowels:
-        
-        
+            yield i
 
 def main():
     strval = 'Python Programming'
