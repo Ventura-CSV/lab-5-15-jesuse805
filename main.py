@@ -1,7 +1,7 @@
 
 def consonant(strval):
 
-    vowels = 'aeiouAEIOU'
+    vowels = set('aeiouAEIOU')
     
     for char in strval:
         
