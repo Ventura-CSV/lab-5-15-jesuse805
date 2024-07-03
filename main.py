@@ -2,8 +2,12 @@
 def consonant(strval):
 
     vowels = 'aeiouAEIOU'
-    for char
+    
+    for char in strval:
+        
         if char.isalpha and char not in vowels:
+            
+            yield char
         
 
 def main():
