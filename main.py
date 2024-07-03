@@ -1,20 +1,19 @@
 
 def consonant(strval):
-
-    vowels = set('aeiouAEIOU')
+    vowelsP = 'aeiouAEIOU'
     for char in strval:
-        if char.isalpha and char not in vowels:
+        if char.isalpha and char not in vowelsP:
             yield char
         
 
 def main():
-    strval = 'Python Programming'
+    strval = 'PythonProgramming'
     mygen = consonant(strval)
 
     rlst = list(mygen)
     print(len(rlst))
     for v in rlst:
-        print(v, end=' ')
+        print(v, end=',')
     print()
 
 
