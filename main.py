@@ -4,6 +4,7 @@ def consonant(strval):
     list = [*strval]
     
     for i in list:
+        if i.isalpha() and not i.lower() in vowels:
         
         
 
